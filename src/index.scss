@@ -1,0 +1,18 @@
+@import "shared";
+
+body, root {
+  margin: 0;
+  padding: 0;
+  background-color: $backgroundTone;
+  font-family: Avenir, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+hr {
+  width: 50%;
+}
