@@ -37,7 +37,7 @@ class Projects extends React.Component {
       <div className='content'>
         <div className='title' style={{fontSize: '2em'}}>Projects</div>
         <hr />
-        <div style={{display: 'flex', flexDirection: 'column'}}>
+        <div style={{display: 'flex', flexDirection: 'column', marginRight: '10px'}}>
           {completedProjects.map((project) => <Project key={project.title} {...project} mobile={this.state.mobile}/>)}
         </div>
         <Link className='link' to='/contact'>
@@ -46,5 +46,5 @@ class Projects extends React.Component {
       </div>
     )
   }
-};
+}
 export default Projects
