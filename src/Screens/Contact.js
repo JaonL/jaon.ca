@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className='content'>
       <div className='title' style={{fontSize: '2em'}}>Contact</div>
-      <hr style={{width: '30%'}} />
+      <hr/>
       <div style={{margin: 10, display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center'}}>
         <div>
           <FontAwesomeIcon icon={faEnvelope}/><a className='link' style={{color: 'gray'}} href='mailto:jasnxl@gmail.com'>jasnxl@gmail.com</a>
@@ -20,6 +20,7 @@ const Contact = () => {
           <FontAwesomeIcon icon={faLinkedin}/><a className='link' style={{color: 'gray'}} href='https://www.linkedin.com/in/jason-l-3aab8686/'>Jason Lu</a>
         </div>
       </div>
+      <p>Can work with Javascript, C++, Java, Python, C, C#, Golang</p>
       <Link className='link' to='/'>
         <div className='button'>Home</div>
       </Link>

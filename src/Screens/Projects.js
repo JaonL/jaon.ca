@@ -36,7 +36,7 @@ class Projects extends React.Component {
     return (
       <div className='content'>
         <div className='title' style={{fontSize: '2em'}}>Projects</div>
-        <hr style={{width: '30%'}} />
+        <hr />
         <div style={{display: 'flex', flexDirection: 'column'}}>
           {completedProjects.map((project) => <Project key={project.title} {...project} mobile={this.state.mobile}/>)}
         </div>
